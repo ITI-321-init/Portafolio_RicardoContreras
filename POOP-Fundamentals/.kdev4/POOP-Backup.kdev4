@@ -1,0 +1,34 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00P\x00O\x00O\x00P\x00-\x00B\x00a\x00c\x00k\x00u\x00p)
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=main.py
+Type=Script Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=POOP-Backup,Abstract Classes,main.py
+Executable=file:///home/tenshi/Desktop/Univercity/ITI-321 Python/Git/POOP-Backup/Abstract Classes/main.py
+Interpreter=python3
+Output Filtering Mode=2
+Run current file=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=main.py
+Type=Script Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=POOP-Backup,class_variables,main.py
+Executable=file:///home/tenshi/Desktop/Univercity/ITI-321 Python/Git/POOP-Backup/class_variables/main.py
+Interpreter=python3
+Output Filtering Mode=2
+Run current file=false
+
+[Project]
+VersionControlSupport=kdevgit

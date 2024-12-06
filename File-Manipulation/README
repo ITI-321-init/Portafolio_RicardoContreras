@@ -1,0 +1,76 @@
+================================================================================================
+University...: Universidad Técnica Nacional
+Campus........: Pacífico
+Career.......: Tecnologías de la Información
+Course.......: ITI-321 - Programación II
+Period.......: 3-2024
+Document.....: File-Manipulation
+Goals........: Manipulating files
+Professor....: Jorge Ruiz (york)
+Student......: Ricardo Contreras
+================================================================================================
+
+--------------(All naming on this file are just wrong, be careful while refactor on this project.)----------------
+NOTICE:
+assets Directory is where all test are done, DO NOT USE OTHER DIRECTORY to test unless is obligatory or necessary.
+PLEASE NOTICE the paths, its might not works on other computers, YOU MUST CHANGE manually all paths depending the new location given when cloning this repo.
+
+Open file mode
+ Value | Description
+-------|----------------------------------------------------------------------------------------
+ r     | Read mode, if file does not exist, raises an IOError exception.
+-------|----------------------------------------------------------------------------------------
+ w     | Write mode, creates file if it doesn’t exist, otherwise overwrites it.
+-------|----------------------------------------------------------------------------------------
+ a     | Append mode, adds data to the end of the file.
+-------|----------------------------------------------------------------------------------------
+ b     | Binary mode, used for handling binary data (like images or complex structures).
+-------|----------------------------------------------------------------------------------------
+ r+    | Read and write mode, raises an IOError if the file does not exist.
+-------|----------------------------------------------------------------------------------------
+ w+    | Write and read mode, creates the file if it doesn’t exist, overwrites otherwise.
+-------|----------------------------------------------------------------------------------------
+ a+    | Append and read mode, creates file if it doesn’t exist.
+-------|----------------------------------------------------------------------------------------
+ rb    | Read binary mode, opens a binary file for reading.
+-------|----------------------------------------------------------------------------------------
+ wb    | Write binary mode, opens a binary file for writing, creates it if it doesn’t exist.
+-------|----------------------------------------------------------------------------------------
+ ab    | Append binary mode, opens a binary file for appending.
+-------|----------------------------------------------------------------------------------------
+ rb+   | Read and write binary mode.
+-------|----------------------------------------------------------------------------------------
+ wb+   | Write and read binary mode, creates file if it doesn’t exist, overwrites otherwise.
+-------|----------------------------------------------------------------------------------------
+ ab+   | Append and read binary mode, creates the file if it doesn’t exist.
+-------|----------------------------------------------------------------------------------------
+
+Directory looks like this:
+
+File_Manipulation
+├── .venv
+├── assets
+│     ├──Copy_Directory
+│     │   └──path.txt
+│     ├── X.ext
+│     ├── X.ext
+│     ├── X.ext
+│     └── etc....
+├──Execption-Handling
+│   └──EH_Main.py
+├──File-Organization
+│   └──main.py
+├──file-wr-detection
+│   └──wrd-main.py
+├──Read-Write
+│   └──main.py
+│   ├── X.ext
+│   ├── X.ext
+│   ├── X.ext
+│   └── etc....
+└──│README
+
+Please notice the following:
+DO NOT manipulate assets unless you know that you are doing. On that
+directory is for testing, main.py on /File-Organization have control
+X.ext are img nor txt blank files just for testing.
